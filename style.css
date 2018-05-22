@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    font-family: 'Handlee', cursive;
+}
+
+p {
+    margin: 1px;
+    font-size: 21px;
+}
+
+h2 {
+    font-size: 29px;
+}
+
+input {
+    border: 0px;
+    border-bottom: 1px gray solid;
+    margin-bottom: 5px;
+    width: 90%;
+    margin: 5px 23px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Handlee', cursive;
+}
+
+input::placeholder {
+    color: lightpink;
+}
+
+.flexboxContainers {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.flexboxContainers div {
+    width: 50%;
+}
+
+#postcardContainer {
+    width: 555px;
+    height: 355px;
+    background-color: white;
+    padding: 20px;
+    margin: 150px auto;
+}
+
+#topRightTextContainer {
+    text-align: right;
+}
+
+#bottomContainer {
+    text-align: center;
+}
+
+#submitButton {
+    text-align: center;
+    width: 30%;
+    background-color: lightgray;
+    border-radius: 25px;    
+    padding: 5px;
+    font-style: normal;
+}
